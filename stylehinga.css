@@ -48,7 +48,7 @@ a{
 
 .img {
     width: 45%;
-    background: url(./img/tracto1.jpg);
+    background: url(./tracto1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
