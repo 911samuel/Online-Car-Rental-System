@@ -48,7 +48,7 @@ a{
 
 .img {
     width: 45%;
-    background: url(./tracto1.jpg);
+    background: url(tracto1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -145,7 +145,7 @@ li img {
 }
 
 .Th1{
-    font-size: 36px;
+    font-size: 28px;
     text-align: center;
     padding: 50px;
 }
