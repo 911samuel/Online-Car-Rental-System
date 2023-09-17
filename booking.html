@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="ABAYIZERA Samuel">
+        <meta name="description" content="My Official Website of AGRICULTURE TRACTOR">
+        <title>AGRICULTURE TRACTOR</title>
+        <link rel="stylesheet" href="stylehinga.css">
+    </head>
+    <body>
+        <?php
+include(" db.php ");
+?>
+        <header>
+            <nav>
+                <h1>HINGA TRACTORS</h1>
+                <ul>
+                    <li><a href="project.html">Home</a></li>
+                    <li><a href="tractors.html">Tractors</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html ">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    <div class="booking-container">
+        <h2>Book Car Now</h2>
+        <form id="booking-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="purchase">Purchasing Date:</label>
+            <input type="date" id="purchase" name="purchase" required>
+            
+            <label for="carName">Car Name:</label>
+            <input type="text" id="carName" name="carName" required>
+            
+            <label for="num-cars">Number of Car:</label>
+            <input type="number" id="num-cars" name="num-cars" required>
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+    <footer>
+        <div class="Copyright">
+            <p class="social">Get connected with us on social networks:</p>
+            <ul>
+                <li><a href="https://twitter.com/home?lang=en" target="_blank"><img src="./img/twitter.png" alt="twitter"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://www.linkedin.com/feed/" target="_blank"><img src="./img/linkedin.png" alt="linkedin"></a></li>
+            </ul>
+        </div>
+        <div class="Copy">
+            <p>Copyright &copy;2023 HINGA TRACTORS</p>
+        </div>
+    </footer>
+    </body>
+</html>

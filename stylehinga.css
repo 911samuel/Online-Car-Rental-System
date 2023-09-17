@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    font-family: lato;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+header{
+    width: 100%;
+    background-color: aqua;
+    padding: 35px 0;
+}
+
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+.mission {
+    width: 98%;
+    display: flex;
+    min-height: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.ad {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img {
+    width: 45%;
+    background: url(./img/tracto1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mainp {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 28px;
+}
+
+.btn {
+    color: white;
+    background-color: brown;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    margin: 24px auto;
+}
+
+li img {
+    width: 24px;
+}
+
+.Copyright {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Copy {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    font-weight: 700;
+}
+
+.contacts{
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+
+.p1 {
+    font-size: 36px;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.map{
+    width: 30%;
+    border-radius: 16px;
+}
+
+.address{
+    width: 25%;
+}
+
+.me{
+    width: 25%;
+    background-color: aliceblue;
+    border-radius: 16px;
+    padding: 25px;
+}
+
+.p2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.hcontact li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 40px;
+}
+.hcontact{
+    display:list-item;
+}
+
+.p3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.button{
+    background-color: rgb(243, 238, 238);
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+.Th1{
+    font-size: 36px;
+    text-align: center;
+    padding: 50px;
+}
+
+.product1 {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+li {
+    line-height: 0%;
+}
+
+.p1list1{
+    display: flex;
+    flex-direction: column;
+}
+
+.products{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.pimg {
+   width: 300px;
+   height: 300px;
+}
+
+.cimg {
+    width: 45%;
+    background: url(./img/tracto1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn a{
+    color: white;
+}
+
+.ourm {
+    font-style: italic;
+    padding: 35px;
+    text-align: center;
+
+}
+
+
+.booking-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    width: 100%;
+    background-color: aqua;
+    padding: 25px 0;
+}
+/* @media screen and (max-width:450px) {
+    .mission{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        align-self: ;
+
+    }
+    
+} */
